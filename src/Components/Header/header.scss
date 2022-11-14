@@ -1,0 +1,14 @@
+@import '../../assets/_vars.scss';
+@import '../../assets/_mixins.scss';
+
+.header {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+    &__btn {
+        @include buttonRoboto($gray, $white, 14px 21px, 0px 4px 40px rgba(46, 80, 87, .12), 600);
+    }
+}

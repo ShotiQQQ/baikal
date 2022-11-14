@@ -1,0 +1,29 @@
+@import './vars';
+
+@mixin buttonRoboto($color, $background, $padding, $boxShadow, $fontWeight) {
+    font-family: 'Roboto', sans-serif;
+    font-weight: $fontWeight;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: .2px;
+    text-align: center;
+    color: $color;
+    background-color: $background;
+    padding: $padding;
+    box-shadow: $boxShadow;
+    border-radius: 3px;
+}
+
+@mixin buttonOpenSans {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: .2px;
+    text-align: center;
+    color: $color;
+    background-color: $background;
+    padding: $padding;
+    box-shadow: $boxShadow;
+    border-radius: 3px;
+}
