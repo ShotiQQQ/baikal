@@ -1,7 +1,7 @@
 @import './vars';
 
 @mixin buttonRoboto($color, $background, $padding, $boxShadow, $fontWeight) {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'OpenSans', sans-serif;
     font-weight: $fontWeight;
     font-size: 17px;
     line-height: 17px;

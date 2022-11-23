@@ -1,0 +1,12 @@
+@import '../../assets/mixins';
+@import '../../assets/vars';
+
+.title {
+    max-width: 655px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: -1px;
+    color: $gray;
+    margin-bottom: 48px;
+}
